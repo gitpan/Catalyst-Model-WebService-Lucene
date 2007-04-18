@@ -1,0 +1,22 @@
+---
+name: Catalyst-Model-WebService-Lucene
+version: 0.02
+author:
+  - 'Brian Cassidy <brian.cassidy@nald.ca>'
+abstract: |-
+  Use WebService::Lucene in your Catalyst
+  application
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Catalyst: 5.7001
+  WebService::Lucene: 0
+provides:
+  Catalyst::Model::WebService::Lucene:
+    file: lib/Catalyst/Model/WebService/Lucene.pm
+    version: 0.02
+generated_by: Module::Build version 0.2807
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
